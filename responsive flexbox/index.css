@@ -1,0 +1,78 @@
+@fnt-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+ }
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+section{
+    margin-top: 150px;
+    color: hsl(0, 0%, 95%);
+   
+    
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 65px;
+}
+
+.flex-container div {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.sedan > button {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 10px 22px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 35px;
+    border-radius: 30px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.suv > button {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 10px 22px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 35px;
+    border-radius: 30px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.luxury > button {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 10px 22px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 35px;
+    border-radius: 30px;
+    background-color: hsl(179, 100%, 13%);
